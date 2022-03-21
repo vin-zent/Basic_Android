@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:orientation="vertical"
+    tools:context=".listview_Activity">
+
+    <Button
+        android:id="@+id/simplelistButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="Simple listview"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/customlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="Custom listview"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dynamiclist"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="Dynamic listview"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/expandablelistButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="Expandable listview"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>

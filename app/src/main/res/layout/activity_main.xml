@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="32dp"
+            android:padding="32dp">
+
+            <Button
+                android:id="@+id/uibtn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Android UI widgets"
+                android:textSize="16sp"
+                 />
+
+            <Button
+                android:id="@+id/menubtn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="Android Menu"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/lifeCycle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="Activity LifeCycle"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/costumItems"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="custom Items"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/listview_item"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="list view"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/serviceact"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="Android Services"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/broadcat"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="broadcast reciever"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/msgbroad"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="Message broadCast"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/weiv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="24sp"
+                android:text="View"
+                android:textSize="16sp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

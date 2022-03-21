@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="32dp"
+    android:padding="32dp"
+    android:layout_height="match_parent"
+    tools:context=".View_Activity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="The Activity leads to this page is a Scroll view"
+         />
+
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="search View"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="grid View"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="tab host"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="web View"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="recycle View"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="24sp"
+        android:text="card View"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>

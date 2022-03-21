@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module2</string>
+    <string name="music_fr">musique que vous aimez</string>
+    <string name="click_here">Chansons préférées</string>
+    <string name="History">Histoire</string>
+    <string name="Artists">Artistes</string>
+    <string name="Albam">album</string>
+    <string name="Downloaded">télécharger</string>
+    <string name="playlist">ma playlist</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">S1_Android</string>
+    <string name="music_fr">Music You Like</string>
+    <string name="click_here">Favorite song</string>
+    <string name="History">History</string>
+    <string name="Artists">Artists</string>
+    <string name="Albam">Album</string>
+    <string name="Downloaded">Download</string>
+    <string name="playlist">My playlist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

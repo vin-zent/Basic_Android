@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".styleActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_fr"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginRight="30dp"
+            android:background="@drawable/background_gradient"
+            android:text="@string/click_here"
+            style="@style/fontsizeandcolor"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background_gradient"
+            android:text="@string/Artists"
+            style="@style/fontsizeandcolor"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/background_gradient"
+            android:text="@string/Albam"
+            style="@style/fontsizeandcolor"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background_gradient"
+            android:text="@string/Downloaded"
+            style="@style/fontsizeandcolor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/background_gradient"
+            android:text="@string/playlist"
+            style="@style/fontsizeandcolor"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"
+            android:background="@drawable/background_gradient"
+            android:text="@string/History"
+            style="@style/fontsizeandcolor"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="Continue"
+        android:backgroundTint="@color/white"
+        app:strokeColor="#FF0000"
+        android:layout_marginTop="10dp"
+        app:icon="@drawable/ic_arrow"
+        app:iconGravity="textEnd"
+        app:iconTint="#FF0000"
+        app:strokeWidth="2dp"
+        android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

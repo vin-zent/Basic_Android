@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.module2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iccon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Module2">
+        <activity
+            android:name=".SmsBroadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GridViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Foregroundsevice"
+            android:exported="false" />
+        <activity
+            android:name=".searchviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Recyle_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".View_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".broad_cast_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TwoserviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpandableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DynamiclistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomAlertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomBuutonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listview_Activity"
+            android:exported="false" />
+        <activity android:name=".Fragment_Activity" />
+        <activity android:name=".styleActivity" />
+        <activity android:name=".SourceCode" />
+        <activity android:name=".AysncProgress" />
+        <activity android:name=".Progress" />
+        <activity android:name=".CustomToast" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".PopUpActivity" />
+        <activity android:name=".ContextActivity" />
+        <activity android:name=".OptionMenu" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".TimeActivity" />
+        <activity android:name=".DateActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".AutoActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".AlertActivity" />
+        <activity android:name=".CheckActivity" />
+        <activity android:name=".Imagebutton" />
+        <activity android:name=".SwitchButtton" />
+        <activity android:name=".ToggleActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".LoginPage" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <receiver android:name=".SmsActive"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".MyService" />
+        <service android:name=".Myservicefor" />
+    </application>
+
+</manifest>

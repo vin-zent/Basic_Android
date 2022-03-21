@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module2</string>
+    <string name="music_fr">സംഗീതം നിങ്ങൾ ഇഷ്ടപ്പെടുന്നു</string>
+    <string name="playlist">എന്റെ പ്ലേലിസ്റ്റ്</string>
+    <string name="Downloaded">ഡൌൺലോഡ്</string>
+    <string name="Albam">ആൽബം</string>
+    <string name="Artists">കലാകാരന്മാർ</string>
+    <string name="History">ചരിത്രം</string>
+    <string name="click_here">ഇവിടെ ക്ലിക്ക് ചെയ്യുക</string>
+</resources>

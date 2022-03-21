@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="32dp"
+    android:padding="32dp"
+    tools:context=".CustomBuutonsActivity">
+
+
+        <Button
+            android:id="@+id/toastbtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Custom Toast"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/cusalertbtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="24sp"
+            android:text="Custom Alert Dialogue"
+            android:textSize="16sp" />
+
+
+
+
+
+
+</LinearLayout>
